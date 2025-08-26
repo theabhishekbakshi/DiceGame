@@ -82,7 +82,7 @@ const resetGame = () => {
 
       <div className={`flex flex-col items-center ${showRules ? "md:mt-[-50px] mt-[0px] mb-2" : "mt-12"} gap-7`}>
         <div onClick={rollDice}>
-          <img src={`/images/dice/dice_${currentDice}.png`} alt="" />
+          <img src={`./images/dice/dice_${currentDice}.png`} alt="" />
         </div>
         <p className="text-[24px]">Click on Dice to roll</p>
         <Button toggle={resetGame} text="Reset Score" isBlack={false} />

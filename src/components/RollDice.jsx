@@ -22,7 +22,7 @@ const RollDice = () => {
     <div className="flex flex-col items-center mt-12 gap-7">
 
     <div onClick={rollDice}>
-      <img src={`/images/dice/dice_${currentDice}.png`} alt="" />
+      <img src={`./images/dice/dice_${currentDice}.png`} alt="" />
     </div>
     <p className='text-[24px]'>Click on Dice to roll</p>
     <Button text="Reset Score" isBlack={false}/>
